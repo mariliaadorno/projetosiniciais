@@ -1,0 +1,147 @@
+
+body {
+    background: #1b1b1b;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	}
+
+
+.cabecalho {
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    margin-top: 56px;
+    margin-bottom: 0;
+    position: top;
+    background-color: transparent;
+}
+
+.cabecalho p 
+{
+font-size: 72px;
+  background: -webkit-linear-gradient(45deg, #eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu
+{
+	list-style: none;
+	padding: 1;
+	background-color: white;
+	position: absolute;
+    top: 0;
+	width: 100%;
+	height: 56px;
+	display: flex;
+	justify-content: end;
+    align-items: center;
+}
+
+.menu a{
+	font-size: 14px;
+	font-weight: bold;
+	color: #1b1b1b;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin:0 20px;
+}
+
+.menu a:hover{
+	color: red;
+	background-image: linear-gradient(to bottom, #EC524B, #F5B461, #9AD3BC);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	 font-size: 16px;	
+	 font-weight: bold;
+	 line-height: 1.1;
+}
+
+.corpo{
+   background: #ffffff;
+    box-shadow: 1px 1px 5px 0px black;
+    border-radius: 10px;
+	width: 1000px;
+	margin: auto;
+	flex-direction: column;
+	padding: 20px;
+ }
+  
+.banner
+ {
+	width: 100%;
+}
+
+.banner img
+{
+	border-radius: 10px;
+}
+
+.rodape
+{
+    top: auto;
+    bottom:10px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    width:100%;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	margin: 10px 0px;
+}
+
+  h1 {
+  
+     background-image: #519e8c;	
+	 font-size: 40px;	
+	 line-height: 1.1;
+	 text-align: center;
+  }
+  
+    h2 {
+	 position: top;
+     color: #EC524B;
+	 font-size: 20px;	
+	 font-weight: bold;
+	 line-height: 1.1;
+  }
+  
+  h5 {
+    color: black;
+	font-size: 15px;
+}
+  h5 {
+    color: black;
+	font-size: 13px;
+	text-align: center;
+	
+}
+
+.flex-line
+{
+	display: flex;
+}
+
+.flex-cell
+{
+width; 50%
+}
+
+.flex-cell-text
+{
+   display: flex;
+    text-align: justify;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame
+{
+	position: absolute;
+	top: 356px;
+	width: 100%;
+	height: auto;
+}

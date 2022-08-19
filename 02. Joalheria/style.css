@@ -1,0 +1,91 @@
+body {
+    font-family: 'Bree Serif', sans-serif; 
+    background-color: #ffd3ba; 
+}
+
+header {
+    background: #ffffff;
+    width: 70%;
+    padding: 15px 0px;
+    margin: 0 auto;
+}
+
+
+nav{
+    position:relative;
+    top: 0px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #735340;
+    font-weight: bolder;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #591902;
+    text-decoration:underline;
+}
+
+
+
+.banner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.principal {
+    background:rgb(255, 255, 255);
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+.principal h2 {
+    padding: 20px;
+    font-size: 22px;
+    text-align: justify;
+    color:#735340;
+    font-weight: bolder;
+}
+.principal p {
+    margin:  0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+.mapa {
+    padding: 3em 0;
+
+}
+
+.mapa-conteudo {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mapa h3 {
+    margin: 0 0 1em;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+footer{
+    background-color: ;
+}
